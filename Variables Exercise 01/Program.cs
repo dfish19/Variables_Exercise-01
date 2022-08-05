@@ -12,10 +12,10 @@ namespace Variables_Exercise_01
             // TODO: Declare 3 constansts
 
             #region Types
-            // string
+             string name = "Fish";
             // char
-            // bool
-            // int
+             bool x = isFishing;
+            int a = 2;
             // double
             // decimal
             #endregion
@@ -26,7 +26,8 @@ namespace Variables_Exercise_01
             // TODO: Initialize each of the variables with a value
 
             // TODO: Write out each of the variables to the Console 
-        }
+            Console.WriteLine($"{name} {x} and caught {a} fish.");
+        } 
 
     }
 }
