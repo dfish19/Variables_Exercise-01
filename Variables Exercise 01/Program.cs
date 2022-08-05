@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System;
 
 namespace Variables_Exercise_01
 {
@@ -11,14 +12,10 @@ namespace Variables_Exercise_01
 
             // TODO: Declare 3 constansts
 
-            #region Types
-             string name = "Fish";
-            // char
-             bool x = isFishing;
+            string name = "Fish";
+            var x = "is fishing";
             int a = 2;
-            // double
-            // decimal
-            #endregion
+
 
             // TODO: Declare a variable for each of the types above
             // Make sure to use C# naming convention best practices 
